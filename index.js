@@ -10,7 +10,7 @@ const controller = require('./controller');
 
 // first we set the device info, used to identify it on the Brain
 const customLightDevice = neeoapi
-  .buildDevice('Simple Accessory')
+  .buildDevice('Sample Accessory')
   .setManufacturer('NEEO')
   .addAdditionalSearchToken('foo')
   .setType('ACCESSORY')
